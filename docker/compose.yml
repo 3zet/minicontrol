@@ -11,9 +11,9 @@ services:
       - 3450:3450/udp
       - 3450:3450/tcp
     environment:
-      TM_MASTERSERVER_LOGIN: ""
-      TM_MASTERSERVER_PASSWORD: ""
-      TM_SYSTEM_XMLRPC_ALLOWREMOTE: "True"
+      TMF_MASTERSERVER_LOGIN: ""
+      TMF_MASTERSERVER_PASSWORD: ""
+      TMF_SYSTEM_XMLRPC_ALLOWREMOTE: "True"
     volumes:
       - "trackmania_gamedata:/server/GameData"
   minicontrol:
